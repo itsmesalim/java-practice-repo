@@ -9,6 +9,6 @@ public class StringClass {
         System.out.println(text.toLowerCase());
         System.out.println(text.toCharArray());
         System.out.println(text.compareToIgnoreCase("s"));
-        System.out.println(text.equalsIgnoreCase("this is some text "));
+
     }
 }
