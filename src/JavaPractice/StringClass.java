@@ -2,6 +2,7 @@ package JavaPractice;
 
 public class StringClass {
     public static void main(String[] args) {
+
         String text = "this is  some text ";
 
         System.out.println(text);
@@ -62,5 +63,27 @@ public class StringClass {
             System.out.println("No occurrences of '" + targett + "' in the text.");
         }
 
+
+        // concatenation of strings
+
+        String text1 = "My Name is ", text2 = "Salim Ullah", concat;
+        concat = text1+text2;
+        System.out.println(concat);
+
+        System.out.println("I am from "+"KPK Dir Lower");
+        System.out.println("the people call me with "+text2+" Name Always. "+ "But the kids says to me "+"babo");
+
+        System.out.println("I am "+26+ " years old ");
+        System.out.println("the output of this number is "+4+4);
+        System.out.println("the output of this number is "+(4+4));
+        System.out.println("I have a dell laptop with ".concat(256+" ssd  ".concat("and "+8+"gb ram")));
+
+        String string1 = "Salim Ullah";
+        String string2 = "Salim Ullah";
+        String string = new String("Salim Ullah");
+
+        System.out.println(string1);
+        System.out.println(string2);
+        System.out.println(string);
     }
 }
