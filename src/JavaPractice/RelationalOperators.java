@@ -52,6 +52,7 @@ public class RelationalOperators {
         System.out.println(873/2 < 340);
 
         System.out.println("\n <= Operators \n");
+
         System.out.println(540 <= 540);
         System.out.println(230*2 <= 480);
         System.out.println(680/2 <= 330);
