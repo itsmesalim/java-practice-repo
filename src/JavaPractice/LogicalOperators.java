@@ -1,7 +1,11 @@
 package JavaPractice;
 
+import java.util.Scanner;
+
 public class LogicalOperators {
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("\n && Operator \n");
 
@@ -28,6 +32,14 @@ public class LogicalOperators {
         System.out.println(name.isBlank() ? "You have no write name " : name);
         System.out.println(!name.isEmpty() ? name : "The name is not valid ");
 
+        System.out.println("\n oooooooooooooooooooooooooooo \n");
+
+        int i = 0, j = 1;
+        boolean c = getValue(i, j) ? true : false;
+        System.out.println(c);
 
     }
+       public static boolean getValue(int i, int j){
+        return i > j;
+       }
 }
