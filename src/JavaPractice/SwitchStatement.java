@@ -6,7 +6,7 @@ public class SwitchStatement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        /*System.out.print("Enter number : ");
+        System.out.print("Enter number : ");
         int number = scanner.nextInt();
 
         switch (number){
@@ -64,7 +64,7 @@ public class SwitchStatement {
             default:
                 System.out.println(value+" is Odd ");
         }
-        */
+
 
         System.out.print("Enter number1 operator number2 : ");
         double number1 = scanner.nextDouble();

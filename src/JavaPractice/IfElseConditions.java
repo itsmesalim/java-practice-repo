@@ -7,7 +7,7 @@ public class IfElseConditions {
 
         Scanner scanner = new Scanner(System.in);
 
-     /*   if (true){
+        if (true){
             System.out.println("this is the 1st if statement ");
         }else {
             System.out.println("this is the 1st else statement ");
@@ -77,7 +77,7 @@ public class IfElseConditions {
             } else {
                 System.out.println(value + " is less then from 100 ");
             }
-*/
+
         System.out.println("\n create calculator \n");
 
         System.out.print("Enter number1 operator number2 : ");
