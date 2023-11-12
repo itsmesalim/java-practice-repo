@@ -7,24 +7,20 @@ public class WhileLoop {
         Scanner scanner = new Scanner(System.in);
 
         int j = 0;
-        while (j <= 10){
+        while (j <= 5){
             System.out.println(" this is while loop "+j);
             j++;
         }
 
+
         int k = 0;
-        while (k <= 15){
-            System.out.println(k);
+        System.out.print("List of numbers from 0 to 50 : ");
+        while (k <= 50){
+            System.out.print(" "+k);
             k++;
         }
 
-        int i = 0;
-        while (i <= 8){
-            System.out.println(i+" hello");
-            i++;
-        }
-
-        System.out.print("Enter a number to chick it's in the range of 1 to 10 or not: ");
+        System.out.print("\n Enter a number to chick it's in the range of 1 to 10 or not: ");
 
         int number = scanner.nextInt();
 
@@ -34,7 +30,13 @@ public class WhileLoop {
         }
         System.out.println(number+" is between 1 and 10 ");
 
+        System.out.println("\n Table \n");
+        int a = 2;
+        int b = 0;
 
-
+        while (b <= 10){
+            System.out.println(b+" x "+a+" = "+(b * a));
+            b++;
+        }
     }
 }
