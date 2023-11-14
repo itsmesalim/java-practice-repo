@@ -40,13 +40,16 @@ public class DoWhileLoop {
         }while (k <= 50);
 
         System.out.println("\n table \n");
-        int a = 2;
-        int b = 0;
 
+        int a = 0;
         do {
-            System.out.println(b+" x "+a+" = "+(b*a));
-            b++;
-        }while (b <= 10);
+            int b = 0;
+            do {
+                System.out.println(b+" x "+a+" = "+(b*a));
+                b++;
+            }while (b <= 10);
+            a++;
+        }while (a <= 5);
 
 
         int number;

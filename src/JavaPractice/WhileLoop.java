@@ -31,12 +31,28 @@ public class WhileLoop {
         System.out.println(number+" is between 1 and 10 ");
 
         System.out.println("\n Table \n");
-        int a = 2;
-        int b = 0;
+        int a = 0;
 
-        while (b <= 10){
-            System.out.println(b+" x "+a+" = "+(b * a));
-            b++;
+        while (a <= 5){
+
+            int b = 0;
+            while (b <= 10) {
+                System.out.println(b + " x " + a + " = " + (b * a));
+                b++;
+            }
+            a++;
+        }
+
+        int m = 0;
+        System.out.print("List of numbers from 0 to 50 uses of break keyword : ");
+        while (m <= 50){
+            System.out.print(" "+m);
+            m++;
+
+            if (m == 34){
+                System.out.println("stop here ");
+                break;
+            }
         }
     }
 }
